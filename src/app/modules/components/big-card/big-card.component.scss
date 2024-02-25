@@ -1,0 +1,43 @@
+@import "../../../../assets/styles/global.scss";
+
+.big-card {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0px 20px;
+    text-align: left;
+}
+
+#link-big-card {
+    text-decoration: none;
+}
+
+.date-card {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: #000000;
+    color: $grey-main;
+    letter-spacing: 0.2;
+    padding: 20px 0px 10px;
+}
+
+.text-main-card {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #121212;
+    color: #ffffff;
+    margin-bottom: 16px;
+    text-decoration: none;
+   
+}
+
+.text-big-card {
+    font-size: 16px;
+  line-height: 26px;
+  color: #a1a1a1;
+  font-weight: 600;
+}
+
+

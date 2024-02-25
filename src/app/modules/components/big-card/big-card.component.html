@@ -1,0 +1,28 @@
+<div class="row pt-5 ps-5">
+  <div class="col-lg-12">
+    <div class="big-card">
+      <a id="link-big-card"  [routerLink]="['/single-post', Id]">
+        <div class="row">
+          <div class="col">
+            <div class="container card-image">
+              <img 
+                src="{{photoCover}}"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="date-card">24 de Fevereiro de 2024</div>
+            <a class="text-main-card">
+              <h1>{{titlePost}}</h1>
+            </a>
+            
+            <p class="text-big-card">
+              {{descriptionPost}}
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
